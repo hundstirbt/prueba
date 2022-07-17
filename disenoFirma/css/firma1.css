@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+}
+
+.main-block{
+    display: flex;
+    max-width: 768px;
+    margin: auto;
+
+}
+
+
+.box{
+    display: flex;
+   
+    gap: 1em;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.box--sub{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1em;
+
+width: 100%;
+}
+
+
+.size-img{
+    border-radius: 50%;
+    
+}
+.round {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-design{
+    margin: 15px;
+    padding: 15px;
+}
+
+:root {
+    --size-social-networks: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-envelope {
+    background: linear-gradient();
+    color: #00A4EF;
+    font-size: var(--size-social-networks);
+}
+
+.fa-phone {
+    color: #000000c3;
+    font-size: var(--size-social-networks);
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: var(--size-social-networks);
+    /* change this to change the size*/
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+    font-size: var(--size-social-networks);
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+    font-size: var(--size-social-networks);
+}
+
+.fa-youtube {
+    color: #FF0000;
+    font-size: var(--size-social-networks);
+}
+
+/* @media screen and (max-width: 500px) {
+    .size-img {
+        width: 200px;
+    }
+    
+} */
+
+
+
